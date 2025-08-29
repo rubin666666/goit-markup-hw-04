@@ -1,0 +1,234 @@
+@import url('https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+    --font-main: 'Roboto', sans-serif;
+    --font-accent: 'Raleway', sans-serif;
+
+    --color-iris: #4d5ae5;
+    --color-ocean: #404bbf;
+    --color-navy: #2e2f42;
+    --color-slate: #434455;
+    --color-light-slate: #8e8f99;
+    --color-cornflower: #e7e9fc;
+    --color-cloud: #f4f4fd;
+    --color-white: #ffffff;
+    --color-green: #31d0aa;
+}
+
+/* Reset */
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Utility */
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* Base */
+body {
+    font-family: var(--font-main);
+    color: var(--color-slate);
+    background-color: var(--color-white);
+    margin: 0;
+}
+
+/* Header */
+.page-header {
+    border-bottom: 1px solid var(--color-cornflower);
+}
+
+/* Logo */
+.logo-link {
+    font-family: var(--font-accent);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-iris);
+    text-decoration: none;
+}
+
+.logo-span {
+    color: var(--color-navy);
+}
+
+.logo-accent {
+    color: var(--color-cloud);
+}
+
+/* Navigation */
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-navy);
+    text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--color-ocean);
+}
+
+/* Contacts */
+.contact-address {
+    font-style: normal;
+}
+
+.contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-slate);
+    text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--color-ocean);
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: var(--color-navy);
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color-white);
+}
+
+.hero-button {
+    background-color: var(--color-iris);
+    font-family: var(--font-main);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+    cursor: pointer;
+    border: none;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--color-ocean);
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-navy);
+    margin-bottom: 72px;
+}
+
+/* Lists */
+.nav-list,
+.contact-list,
+.features-list,
+.portfolio-list,
+.gallery-list,
+.team-list {
+    list-style: none;
+    margin: 0;
+}
+
+/* Cards */
+.feature-title,
+.portfolio-title,
+.team-name {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--color-navy);
+    margin-bottom: 8px;
+}
+
+.feature-text,
+.portfolio-type,
+.team-role {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-slate);
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    background-color: var(--color-cloud);
+}
+
+.portfolio-item {
+    background-color: var(--color-white);
+}
+
+.portfolio-card {
+    border-bottom: 1px solid var(--color-cornflower);
+}
+
+/* Gallery Section */
+.gallery-section {
+    background-color: var(--color-cloud);
+}
+
+.gallery-item {
+    background-color: var(--color-white);
+}
+
+/* Team Section */
+.team-section {
+    background-color: var(--color-cloud);
+}
+
+.team-card {
+    background-color: var(--color-white);
+}
+
+/* Footer */
+.footer-section {
+    background-color: var(--color-navy);
+}
+
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-cloud);
+}
