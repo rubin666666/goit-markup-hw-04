@@ -93,6 +93,7 @@ background-color: var(--color-white);
     text-transform: uppercase;
     color: var(--color-iris);
     text-decoration: none;
+    margin-right: 76px
 }
 
 .logo-span {
@@ -221,6 +222,7 @@ font-size: 20px;
     letter-spacing: 0.02em;
     color: var(--color-navy);
     margin-bottom: 8px;
+    text-align: center
 }
 
 .feature-text,
@@ -269,6 +271,7 @@ font-size: 20px;
     gap: 24px;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center
 }
 .team-card,
 .gallery-item {
