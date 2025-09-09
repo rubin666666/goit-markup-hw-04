@@ -2,19 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap');
 
 /* Variables */
-<<<<<<< HEAD
+ HEAD
 :root {
   --font-main: 'Roboto', sans-serif;
   --font-accent: 'Raleway', sans-serif;
+}
 
-=======
 
 /* Variables */ 
 :root {
   --font-main: 'Roboto', sans-serif;
   --font-accent: 'Raleway', sans-serif;
 
->>>>>>> d76e6e0b17dadffb00f8c001aaf31fd1f3d31d7d
+
   --color-iris: #4d5ae5;
   --color-ocean: #404bbf;
   --color-navy: #2e2f42;
