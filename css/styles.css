@@ -48,10 +48,7 @@ fill: var(--color-cloud);
 .social-list {
   display: flex;
   justify-content: center;
-  gap: 16px;
-  margin-top: 8px;
-  padding: 0;
-  list-style: none;
+  gap: 24px;
 }
 
 
@@ -545,4 +542,10 @@ fill: var(--color-cloud);
 .social-link-footer:hover,
 .social-link-footer:focus {
   background-color: #31d0aa;
+}
+.social-list-footer{
+  display: flex;
+  justify-content: flex-start;
+  gap: 24px;
+  list-style: none;
 }
