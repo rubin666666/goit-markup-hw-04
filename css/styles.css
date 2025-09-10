@@ -2,19 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap');
 
 /* Variables */
- HEAD
+
 :root {
   --font-main: 'Roboto', sans-serif;
   --font-accent: 'Raleway', sans-serif;
-}
-
-
-/* Variables */ 
-:root {
-  --font-main: 'Roboto', sans-serif;
-  --font-accent: 'Raleway', sans-serif;
-
-
   --color-iris: #4d5ae5;
   --color-ocean: #404bbf;
   --color-navy: #2e2f42;
@@ -25,6 +16,38 @@
   --color-white: #ffffff;
   --color-green: #31d0aa;
 }
+
+svg {
+  fill: currentColor;
+}
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-iris);
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+.social-link svg {
+  fill: var(--color-white);
+  width: 16px;
+    height: 16px;
+    fill: var(--color-white);
+}
+.social-link:hover {
+  background-color: var(--color-ocean)
+}
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+  padding: 0;
+  list-style: none;
+}
+
 
 /* Reset & base */
 *,
@@ -164,9 +187,15 @@ img {
 
 /* Hero */
 .hero-section {
-  background-color: var(--color-navy);
+  background-image:
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url("/images/heroimage(1).jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 188px 0;
   text-align: center;
+  color: #fff;
 }
 
 .hero-title {
@@ -176,6 +205,7 @@ img {
   color: var(--color-white);
   max-width: 496px;
   margin: 0 auto 48px;
+  
 }
 
 .hero-button {
@@ -339,25 +369,13 @@ img {
 }
 
 /* Portfolio */
-.portfolio-section {
-  background-color: var(--color-cloud);
-}
 
-.portfolio-item {
-  background-color: var(--color-white);
-}
 
-.portfolio-card {
-  border-bottom: 1px solid var(--color-cornflower);
-}
 
-.portfolio-type {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-slate);
-  margin: 0;
-}
+
+
+
+
 
 /* Footer */
 .footer-section {
@@ -384,4 +402,40 @@ img {
   color: var(--color-cloud);
   max-width: 264px;
   margin: 0;
+}
+
+.footer-socials {
+    display: flex;
+      flex-direction: column;
+      align-items:flex-start;
+      max-width:208px;
+      margin-left: 50px;
+}
+
+.social-label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  margin-bottom: 16px;
+  margin-right: auto;
+}
+.footer-section .container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.footer-container {
+  display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px; 
+}
+
+.footer-left {
+  max-width: 264px;  
+  margin-right: 40px;
 }
