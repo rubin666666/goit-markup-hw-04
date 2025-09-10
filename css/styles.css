@@ -45,6 +45,10 @@ fill: var(--color-cloud);
 .social-link:focus {
   background-color: #404bbf;
 }
+.social-link:hover,
+.social-link:focus {
+  background-color: #31d0aa;
+}
 .social-list {
   display: flex;
   justify-content: center;
