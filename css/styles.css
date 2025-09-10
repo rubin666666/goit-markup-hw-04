@@ -34,7 +34,6 @@ svg {
   fill: var(--color-white);
   width: 16px;
     height: 16px;
-    fill: var(--color-white);
 }
 .social-link:hover {
   background-color: var(--color-ocean)
