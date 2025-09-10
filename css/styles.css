@@ -481,7 +481,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   letter-spacing: 0.02em;
   color: var(--color-cloud);
   max-width: 264px;
-  margin: 0;
   margin-bottom: 16px;
 }
 
@@ -523,8 +522,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   align-items: baseline;
 }
 .icon-social-footer{
-fill: var(--color-cloud);
-  /* #f4f4fd */
+fill: #f4f4fd;
   width: 24px;
     height: 24px;
 }
@@ -546,6 +544,9 @@ fill: var(--color-cloud);
 .social-list-footer{
   display: flex;
   justify-content: flex-start;
-  gap: 24px;
+  gap: 16px;
   list-style: none;
+}
+.social-item-footer {
+    /* TODO: Add styles */
 }
