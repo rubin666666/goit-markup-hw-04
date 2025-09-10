@@ -491,10 +491,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-  margin-right: auto;
-  letter-spacing: 0.02em;
 }
 .footer-section .container {
   display: flex;
@@ -503,7 +502,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   flex-wrap: wrap;
   gap: 40px;
 }
-.container footer-container {
+.container-footer-container {
   display: flex;
     justify-content: flex-start;
     align-items: baseline;
@@ -546,6 +545,8 @@ fill: #f4f4fd;
     /* TODO: Add styles */
 }
 
-.footer-container {
+
+
+.container-footer-container {
     /* TODO: Add styles */
 }
