@@ -136,7 +136,8 @@ img {
 }
 
 .logo-span {
-  color: var(--color-navy);
+color: var(--color-ocean);
+  position: relative;
 }
 
 .logo-accent {
@@ -265,6 +266,18 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
   width: calc((100% - 72px) / 4);
   text-align: left;
   list-style: none;
+}
+.feature-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--color-cloud);
+  border-radius: 4px;
+  margin-bottom: 8px;
+  height: 112px;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
 }
 
 .feature-title {
@@ -442,3 +455,5 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
   max-width: 264px;  
   margin-right: 40px;
 }
+ 
+
